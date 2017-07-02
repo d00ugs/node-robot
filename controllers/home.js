@@ -17,6 +17,10 @@ exports.get = function(req, res) {
     '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/wristdown\');" type="button">Wrist Down</button>' + 
     '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/open\');" type="button">Open</button>' + 
     '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/close\');" type="button">Close</button>' + 
+    '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/in\');" type="button">In</button>' + 
+    '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/out\');" type="button">Out</button>' + 
+    '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/up\');" type="button">Up</button>' + 
+    '<button onmouseup="$.get(\'/action/done\');" onmousedown="$.get(\'/action/down\');" type="button">Down</button>' + 
     '\n\n');
   res.end();
 };
